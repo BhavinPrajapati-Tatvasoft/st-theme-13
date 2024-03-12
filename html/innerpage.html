@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Innerpage | Admin Theme</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<script type="text/javascript" src="js/main.js"></script>	
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Start Sidebar -->
+		<aside class="sidebar">
+			<div class="p-4">
+				<a href="dashboard.html" title="" class="logo">
+					<em>Web</em>Admin
+				</a>			
+
+
+				<img src="images/user-img.jpg" alt="" class="user-img">
+				<p class="user-name medium-text">Kenny Rigdon</p>
+				<span class="status offline">Online</span>
+			</div>
+
+
+			<!-- Main Navigation -->		
+			<nav class="main-navigation">
+				<ul>
+					<li class="active"><a href="#" title="Dashboard"><i><img src="images/icon-dashboard.png" alt=""></i>Dashboard</a></li>
+					<li><a href="#" title="Layouts"><i><img src="images/icon-layout.png" alt=""></i>Layouts</a></li>
+					<li><a href="#" title="Pages"><i><img src="images/icon-pages.png" alt=""></i>Pages</a></li>
+					<li><a href="#" title="UI Elements"><i><img src="images/icon-elements.png" alt=""></i>UI Elements</a></li>
+					<li><a href="#" title="Charts"><i><img src="images/icon-charts.png" alt=""></i>Charts</a></li>
+					<li><a href="#" title="Structure"><i><img src="images/icon-structure.png" alt=""></i>Structure</a></li>
+					<li><a href="#" title="Widgets"><i><img src="images/icon-widgets.png" alt=""></i>Widgets</a></li>
+				</ul>
+			</nav>
+			<!-- End Main Navigation -->
+		</aside>
+		<div class="menu-overlay"></div>
+		<!-- End Sidebar -->
+
+
+		<!-- Main Content -->
+		<main class="main-content">
+			<div class="main-content-inner">
+				<!-- Start Header -->
+				<header class="header clearfix">
+					<div class="header-left">
+						<!-- nav icon -->
+						<button class="nav-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<!-- nav icon -->
+						<!-- header logo -->
+						<a href="dashboard.html" title="" class="logo">
+							<em>W</em>A
+						</a>			
+						<!-- header logo -->
+						<input type="text" class="search-input" placeholder="Search...">
+					</div>
+
+					<ul class="header-right">
+						<li class="dropdown notification-dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i><img src="images/icon-notification.png" alt=""></i>
+							</a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">Notifiction 01</a>
+								<a class="dropdown-item" href="#">Notifiction 02</a>
+								<a class="dropdown-item" href="#">Notifiction 03</a>
+								<a class="dropdown-item" href="#">Notifiction 04</a>
+								<a class="dropdown-item" href="#">Notifiction 05</a>
+							</div>
+						</li>
+
+						<li class="dropdown user-dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i><img src="images/user-dropdown-icon.jpg" alt=""></i>
+								<span>John Marsh</span>
+							</a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">Edit</a>
+								<a class="dropdown-item" href="#">Setting</a>
+								<a class="dropdown-item" href="login.html">Logout</a>
+							</div>
+						</li>
+					</ul>
+				</header>
+				<!-- End Header -->	
+				<div class="row">
+					<div class="col">
+						<h4 class="page-name">Innerpage</h4>
+					</div>
+					<div class="col-auto">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Innerpage</li>
+							</ol>
+						</nav>						
+					</div>
+				</div>
+				
+				
+				<!-- Start Yearly Sales -->
+				<section class="page-block">
+					<div class="page-block-heading-outer row">
+						<div class="col">
+							<h5 class="page-block-heading">Recent sales</h5>
+						</div>
+						<div class="col-md-auto table-header-form">
+							<input type="text" class="search-input" placeholder="Search Here...">
+							<label>
+								<span>Sort:</span>
+								<div class="dropdown">
+									<a href="#" class="dropdown-toggle"data-toggle="dropdown">
+										All
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">Option 01</a>
+										<a class="dropdown-item" href="#">Option 02</a>
+										<a class="dropdown-item" href="#">Option 03</a>
+										<a class="dropdown-item" href="#">Option 04</a>
+										<a class="dropdown-item" href="#">Option 05</a>
+									</div>
+								</div>
+							</label>
+							<label>
+								<span>Filter:</span>
+								<div class="dropdown">
+									<a href="#" class="dropdown-toggle"data-toggle="dropdown">
+										Show All
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">Option 01</a>
+										<a class="dropdown-item" href="#">Option 02</a>
+										<a class="dropdown-item" href="#">Option 03</a>
+										<a class="dropdown-item" href="#">Option 04</a>
+										<a class="dropdown-item" href="#">Option 05</a>
+									</div>
+								</div>
+							</label>
+							<button class="btn btn-primary icon-btn"><img src="images/icon-add.svg" alt=""></button>
+						</div>
+					</div>
+					
+					<!-- Start Table -->
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>											
+									<th width="30">
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-01">
+											<label class="custom-control-label" for="check-01"></label>
+										</div>
+									</th>
+									<th>Invoice</th>
+									<th>User</th>
+									<th>Order date</th>
+									<th>Amount</th>
+									<th class="text-center">Status</th>
+									<th>Tracking Number</th>
+									<th width="50"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-02">
+											<label class="custom-control-label" for="check-02"></label>
+										</div>
+									</td>
+									<td>#53431</td>
+									<td>Steve N. Horton</td>
+									<td>Oct 22, 2014</td>
+									<td>$45.00</td>
+									<td class="text-center"><span class="badge badge-pill badge-success">Paid</span></td>
+									<td>CGX0089734531</td>
+									<td class="actions">
+										<a href="#" title="Edit"><img src="images/icon-edit.svg" alt=""></a>
+										<a href="#" title="Delete"><img src="images/icon-delete.svg" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-03">
+											<label class="custom-control-label" for="check-03"></label>
+										</div>
+									</td>
+									<td>#53431</td>
+									<td>Steve N. Horton</td>
+									<td>Oct 22, 2014</td>
+									<td>$45.00</td>
+									<td class="text-center"><span class="badge badge-pill badge-success">Paid</span></td>
+									<td>CGX0089734531</td>
+									<td class="actions">
+										<a href="#" title="Edit"><img src="images/icon-edit.svg" alt=""></a>
+										<a href="#" title="Delete"><img src="images/icon-delete.svg" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-04">
+											<label class="custom-control-label" for="check-04"></label>
+										</div>
+									</td>
+									<td>#53431</td>
+									<td>Steve N. Horton</td>
+									<td>Oct 22, 2014</td>
+									<td>$45.00</td>
+									<td class="text-center"><span class="badge badge-pill badge-warning">Shipped</span></td>
+									<td>CGX0089734531</td>
+									<td class="actions">
+										<a href="#" title="Edit"><img src="images/icon-edit.svg" alt=""></a>
+										<a href="#" title="Delete"><img src="images/icon-delete.svg" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-05">
+											<label class="custom-control-label" for="check-05"></label>
+										</div>
+									</td>
+									<td>#53431</td>
+									<td>Steve N. Horton</td>
+									<td>Oct 22, 2014</td>
+									<td>$45.00</td>
+									<td class="text-center"><span class="badge badge-pill badge-warning">Shipped</span></td>
+									<td>CGX0089734531</td>
+									<td class="actions">
+										<a href="#" title="Edit"><img src="images/icon-edit.svg" alt=""></a>
+										<a href="#" title="Delete"><img src="images/icon-delete.svg" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-06">
+											<label class="custom-control-label" for="check-06"></label>
+										</div>
+									</td>
+									<td>#53431</td>
+									<td>Steve N. Horton</td>
+									<td>Oct 22, 2014</td>
+									<td>$45.00</td>
+									<td class="text-center"><span class="badge badge-pill badge-info">Cancelled</span></td>
+									<td>CGX0089734531</td>
+									<td class="actions">
+										<a href="#" title="Edit"><img src="images/icon-edit.svg" alt=""></a>
+										<a href="#" title="Delete"><img src="images/icon-delete.svg" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="check-07">
+											<label class="custom-control-label" for="check-07"></label>
+										</div>
+									</td>
+									<td>#53431</td>
+									<td>Steve N. Horton</td>
+									<td>Oct 22, 2014</td>
+									<td>$45.00</td>
+									<td class="text-center"><span class="badge badge-pill badge-yellow">Unpaid</span></td>
+									<td>CGX0089734531</td>
+									<td class="actions">
+										<a href="#" title="Edit"><img src="images/icon-edit.svg" alt=""></a>
+										<a href="#" title="Delete"><img src="images/icon-delete.svg" alt=""></a>
+									</td>
+								</tr>										
+							</tbody>
+						</table>
+					</div>
+					<div class="table-pagination row">
+						<div class="col">
+							<p>Records: 6 / 100</p>
+						</div>
+						<div class="col-sm-auto">
+							<ul class="pagination">
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Previous">
+										<img src="images/prev-arrow.png" alt="">
+									</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">4</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Next">
+										<img src="images/next-arrow.png" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- End Table -->
+
+					<h5 class="page-block-heading">Form Style</h5>
+					<div class="default-form">
+						<h6 class="page-block-subheading">One Column</h6>
+						<div class="form-group">
+							<label>Textbox</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Dropdown</label>
+							<select class="custom-select">
+								<option>Option 01</option>
+								<option>Option 02</option>
+								<option>Option 03</option>
+								<option>Option 04</option>
+								<option>Option 05</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Textarea</label>
+							<textarea rows="3" class="form-control"></textarea>
+						</div>	
+						<br>
+						<h6 class="page-block-subheading">Two Column</h6>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label>Email</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label>Disabled</label>
+									<input type="text" class="form-control" disabled="">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label>Focus</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+						</div>		
+
+						<br>
+						<h6 class="page-block-subheading">Three Column</h6>			
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<h6 class="page-block-subheading">Four Column</h6>			
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Name</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="form-group">
+									<label>Dropdown</label>
+									<select class="custom-select">
+										<option>Option 01</option>
+										<option>Option 02</option>
+										<option>Option 03</option>
+										<option>Option 04</option>
+										<option>Option 05</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<h6 class="page-block-subheading">Leftside Column</h6>			
+						<div class="form-horizontal">
+							<div class="form-group row">
+								<label class="col-md-2 control-label">Name</label>
+								<div class="col-md-10">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<label class="col-md-2 control-label">Dropdown:</label>
+								<div class="col-md-10">
+									<select class="custom-select">
+										<option>Option 1</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+										<option>Option 4</option>
+										<option>Option 5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						
+						<br>
+						<h6 class="page-block-subheading">Other Elements</h6>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>File Upload</label>
+									<div class="custom-file">
+										<input type="file" class="custom-file-input" id="customFile">
+										<label class="custom-file-label" for="customFile"></label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-horizontal">
+									<div class="form-group row mt-23">
+										<label class="col-md-4 control-label">File Upload</label>
+										<div class="col-md-auto">
+											<div class="custom-file custom-file-btn">
+												<input type="file" class="custom-file-input" id="customFile1">
+												<label class="custom-file-label" for="customFile1"></label>
+											</div>
+										</div>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Check Boxes</label>
+							<div>
+								<div class="custom-control custom-checkbox custom-control-inline">
+									<input type="checkbox" class="custom-control-input" id="customCheck1">
+									<label class="custom-control-label" for="customCheck1">Option 1</label>
+								</div>
+								<div class="custom-control custom-checkbox custom-control-inline">
+									<input type="checkbox" class="custom-control-input" id="customCheck2">
+									<label class="custom-control-label" for="customCheck2">Option 2</label>
+								</div>
+								<div class="custom-control custom-checkbox custom-control-inline">
+									<input type="checkbox" class="custom-control-input" id="customCheck3">
+									<label class="custom-control-label" for="customCheck3">Option 3</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Radio Buttons</label>
+							<div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+									<label class="custom-control-label" for="customRadioInline1">Option 1</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+									<label class="custom-control-label" for="customRadioInline2">Option 2</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+									<label class="custom-control-label" for="customRadioInline3">Option 3</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="buttons form-btn clearfix">
+								<button class="btn btn-primary rounded-0">Primary</button>
+								<button class="btn btn-secondary rounded-0">Secondary</button>
+								<button class="btn btn-primary btn-sm rounded-0">Small Button</button>
+							</div>
+						</div>
+						
+						<div class="alert alert-success" role="alert">
+							<a href="#" class="alert-link">
+								<span class="icon">
+									<svg width="100%" height="100%" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+										<g transform="matrix(1,0,0,1,-316.514,-2461.5)">
+											<path id="Forma-1-copy-10" serif:id="Forma 1 copy 10" d="M330.373,2461.5L332.485,2463.62L322.605,2473.49L316.514,2467.4L318.626,2465.29L322.605,2469.27L330.373,2461.5Z" style="fill:#fff;fill-rule:nonzero;"></path>
+										</g>
+									</svg>
+								</span>
+								This is a success message.
+								<span class="close-icon">
+									<img src="images/close.svg" alt="close">
+								</span>
+							</a>
+						</div>
+
+						<div class="alert alert-info" role="alert">
+							<a href="#" class="alert-link">
+								<span class="icon">
+									<svg width="100%" height="100%" viewBox="0 0 8 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+										<g transform="matrix(1,0,0,1,-319.999,-2528)">
+											<path id="Forma-1" serif:id="Forma 1" d="M326.791,2544.06L326.569,2545.09C325.905,2545.38 325.375,2545.61 324.979,2545.76C324.584,2545.92 324.124,2546 323.601,2546C322.797,2546 322.171,2545.78 321.725,2545.33C321.279,2544.89 321.056,2544.32 321.056,2543.63C321.056,2543.37 321.072,2543.09 321.106,2542.82C321.14,2542.54 321.194,2542.22 321.267,2541.87L322.098,2538.54C322.171,2538.22 322.234,2537.91 322.285,2537.63C322.336,2537.34 322.36,2537.08 322.36,2536.85C322.36,2536.42 322.282,2536.12 322.128,2535.95C321.973,2535.79 321.678,2535.7 321.24,2535.7C321.025,2535.7 320.805,2535.74 320.58,2535.82C320.354,2535.89 320.161,2535.97 319.999,2536.03L320.221,2535C320.765,2534.75 321.284,2534.54 321.782,2534.36C322.279,2534.18 322.749,2534.09 323.193,2534.09C323.992,2534.09 324.608,2534.31 325.041,2534.75C325.473,2535.19 325.69,2535.76 325.69,2536.46C325.69,2536.6 325.676,2536.86 325.645,2537.22C325.615,2537.59 325.56,2537.92 325.479,2538.23L324.652,2541.55C324.584,2541.82 324.523,2542.12 324.47,2542.47C324.416,2542.81 324.39,2543.07 324.39,2543.24C324.39,2543.69 324.476,2543.99 324.65,2544.15C324.825,2544.31 325.126,2544.39 325.554,2544.39C325.755,2544.39 325.984,2544.35 326.238,2544.27C326.492,2544.19 326.676,2544.12 326.791,2544.06ZM327.001,2530.1C327.001,2530.68 326.808,2531.18 326.422,2531.58C326.037,2531.99 325.573,2532.2 325.03,2532.2C324.485,2532.2 324.02,2531.99 323.631,2531.58C323.242,2531.18 323.047,2530.68 323.047,2530.1C323.047,2529.52 323.242,2529.03 323.631,2528.62C324.019,2528.2 324.485,2528 325.03,2528C325.573,2528 326.037,2528.21 326.422,2528.62C326.809,2529.03 327.001,2529.52 327.001,2530.1Z" style="fill:#fff;fill-rule:nonzero;"></path>
+										</g>
+									</svg>
+								</span>
+								This is an info message.
+								<span class="close-icon">
+									<img src="images/close.svg" alt="close">
+								</span>
+							</a>
+						</div>
+
+						<div class="alert alert-warning" role="alert">
+							<a href="#" class="alert-link">
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+										<g>
+											<g>
+												<path d="M505.403,406.394L295.389,58.102c-8.274-13.721-23.367-22.245-39.39-22.245c-16.023,0-31.116,8.524-39.391,22.246    L6.595,406.394c-8.551,14.182-8.804,31.95-0.661,46.37c8.145,14.42,23.491,23.378,40.051,23.378h420.028    c16.56,0,31.907-8.958,40.052-23.379C514.208,438.342,513.955,420.574,505.403,406.394z M477.039,436.372    c-2.242,3.969-6.467,6.436-11.026,6.436H45.985c-4.559,0-8.784-2.466-11.025-6.435c-2.242-3.97-2.172-8.862,0.181-12.765    L245.156,75.316c2.278-3.777,6.433-6.124,10.844-6.124c4.41,0,8.565,2.347,10.843,6.124l210.013,348.292    C479.211,427.512,479.281,432.403,477.039,436.372z" fill="#fff"></path>
+											</g>
+										</g>
+										<g>
+											<g>
+												<path d="M256.154,173.005c-12.68,0-22.576,6.804-22.576,18.866c0,36.802,4.329,89.686,4.329,126.489    c0.001,9.587,8.352,13.607,18.248,13.607c7.422,0,17.937-4.02,17.937-13.607c0-36.802,4.329-89.686,4.329-126.489    C278.421,179.81,268.216,173.005,256.154,173.005z" fill="#fff"></path>
+											</g>
+										</g>
+										<g>
+											<g>
+												<path d="M256.465,353.306c-13.607,0-23.814,10.824-23.814,23.814c0,12.68,10.206,23.814,23.814,23.814    c12.68,0,23.505-11.134,23.505-23.814C279.97,364.13,269.144,353.306,256.465,353.306z" fill="#fff"></path>
+											</g>
+										</g>
+
+									</svg>
+								</span>
+								This is an alert message.
+								<span class="close-icon">
+									<img src="images/close.svg" alt="close">
+								</span>
+							</a>
+						</div>
+
+						<div class="alert alert-danger" role="alert">
+							<a href="#" class="alert-link">
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;" xml:space="preserve" width="512px" height="512px">
+										<g id="Close">
+											<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M131.804,106.491l75.936-75.936c6.99-6.99,6.99-18.323,0-25.312   c-6.99-6.99-18.322-6.99-25.312,0l-75.937,75.937L30.554,5.242c-6.99-6.99-18.322-6.99-25.312,0c-6.989,6.99-6.989,18.323,0,25.312   l75.937,75.936L5.242,182.427c-6.989,6.99-6.989,18.323,0,25.312c6.99,6.99,18.322,6.99,25.312,0l75.937-75.937l75.937,75.937   c6.989,6.99,18.322,6.99,25.312,0c6.99-6.99,6.99-18.322,0-25.312L131.804,106.491z" fill="#fff"></path>
+										</g>
+									</svg>
+								</span>
+								This is an error message.
+								<span class="close-icon">
+									<img src="images/close.svg" alt="close">
+								</span>
+							</a>
+						</div>
+						
+
+						<br>
+						<h6 class="page-block-subheading">Tab Style</h6>
+						<div class="tab-block">			
+							<div class="tab-heading" active-center="true">
+								<ul class="clearfix">
+									<li class="active"><a href="#property-details" title="Property Details">Property Details</a></li>
+									<li><a href="#tenancy-details" title="Tenancy Details">Tenancy Details</a></li>
+									<li><a href="#features-and-preferences" title="Features & Preferences">Features & Preferences</a></li>
+									<li><a href="#uploadimages-and-documents" title="Upload Images & Documents">Upload Images & Documents</a></li>
+									<li><a href="#additional-features" title="Additional Features">Additional Features</a></li>
+								</ul>
+							</div>
+							<div class="tab-content">
+								<div class="tab-detail active" id="property-details">
+									<p>
+										01 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+								<div class="tab-detail" id="tenancy-details">
+									<p>
+										02 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+								<div class="tab-detail" id="features-and-preferences">
+									<p>
+										03 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+								<div class="tab-detail" id="uploadimages-and-documents">
+									<p>
+										04 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+								<div class="tab-detail" id="additional-features">
+									<p>
+										05 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</section>
+				<!-- End Yearly Sales -->			
+			</div>
+		</main>
+		<!-- End Main Content -->
+	</div>
+
+	<!-- Start Footer -->
+	<footer class="footer">		
+		<p class="copyright">Copyright &copy; 2000-2014 Companny Name</p>					
+	</footer>
+	<!-- End Footer -->	
+</body>
+</html>
